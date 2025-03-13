@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="trav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TravelBloom</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Enter a destination or keyword">
+                <button onclick="searchDestinations()">Search</button>
+                <button onclick="clearSearch()">Clear</button>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>EXPLORE DREAM DESTINATION</h1>
+        <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes.</p>
+        <button>BOOK NOW</button>
+        <div id="destination-results"></div>
+    </section>
+    
+    <section id="about">
+        <h1>ABOUT US</h1>
+        <p>We are a team of passionate individuals dedicated to providing excellent travel experiences.</p>
+        <h2>Our Team</h2>
+        <div class="team">
+            <div class="member">John Doe - CEO</div>
+            <div class="member">Celina Thomas - Team Lead</div>
+            <div class="member">Mike Tysen - Delivery Head</div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h1>CONTACT US</h1>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <script src="trav.js"></script>
+</body>
+</html>
